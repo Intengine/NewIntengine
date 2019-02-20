@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
+<div class="container-fluid introSection">
 <div class="container-fluid logo">
     <div class="row">
         <div class="col-md-12">I N T E N G I N E</div>
@@ -27,13 +28,24 @@
             &nbsp; &nbsp;
             |
             &nbsp; &nbsp;
-            <button class="btn btn-outline-light animated fadeInUp">ABOUT</button>
+            <button class="btn btn-outline-light animated fadeInUp" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="about">ABOUT</button>
             &nbsp; &nbsp;
             |
             &nbsp; &nbsp;
-            <button class="btn btn-outline-light animated fadeInRight">CONTACT</button>
+            <button class="btn btn-outline-light animated fadeInRight" data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact">CONTACT</button>
+        </div>
+        <div class="collapse" id="about">
+            <div class="aboutText">
+                O kurwa o kurwa jaki piękny jest ten walczyk!
+            </div>
+        </div>
+        <div class="collapse" id="contact">
+            <div class="contactText">
+                Ja pierdolę, ja pierdolę, jak ona pięknie tańczy!
+            </div>
         </div>
     </div>
+</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
