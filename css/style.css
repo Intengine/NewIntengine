@@ -11,10 +11,14 @@ body {
     height: 90vh;
     color: #ffffff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: 400% 700%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
+}
+
+hr {
+    width: 30px;
 }
 
 h1 {
@@ -37,6 +41,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about {
+    font-size: 14px;
+    text-align: right;
+    font-family: 'Open Sans', serif;
+    color: #ffffff;
+}
+
+.resume {
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Open Sans', serif;
+    color: #ffffff;
 }
 
 @-webkit-keyframes Gradient {
