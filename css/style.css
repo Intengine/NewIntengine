@@ -43,6 +43,13 @@ p {
     align-items: center;
 }
 
+.section-about {
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about {
     font-size: 14px;
     text-align: right;
