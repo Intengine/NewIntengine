@@ -28,11 +28,19 @@ h1 {
     color: #ffffff;
 }
 
+h3 {
+    color: #ffdf7e;
+}
+
 p {
     font-size: 14px;
     font-family: 'Open Sans', serif;
     text-align: center;
     position: relative;
+    color: #ffffff;
+}
+
+.far,.fab {
     color: #ffffff;
 }
 
