@@ -11,7 +11,7 @@ body {
     height: auto;
     color: #ffffff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 620%;
+    background-size: 100% 100%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
@@ -98,6 +98,9 @@ span {
     }
 }
 
+/* this is the animation of background gradient, but it seems too "rough" for the graphic card...
+will try fix that later, for now better keep it shut
+
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0 50%
@@ -132,4 +135,25 @@ span {
     100% {
         background-position: 0 50%
     }
+}
+*/
+
+/* portfolio */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 60%;
+    height: 150vh;
+}
+
+.sidebar {
+    width: 25%;
+    height: 25vh;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 10px;
 }
