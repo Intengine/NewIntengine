@@ -17,10 +17,6 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
-hr {
-    width: 30px;
-}
-
 h1 {
     font-family: 'Bebas Neue', serif;
     text-align: center;
@@ -59,6 +55,13 @@ span {
 
 .section-about {
     height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-portfolio {
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
