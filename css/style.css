@@ -16,6 +16,10 @@ body {
     background-size: 100% 100%;
 }
 
+hr {
+    width: 30px;
+}
+
 h1 {
     font-family: 'Bebas Neue', serif;
     text-align: center;
@@ -78,6 +82,20 @@ span {
     text-align: left;
     font-family: 'Open Sans', serif;
     color: #ffffff;
+}
+
+.image-portfolio {
+    height: 100%;
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.image-portfolio:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
 
 @media only screen and (max-width: 770px) {
