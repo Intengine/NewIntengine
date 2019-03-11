@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Rozha+One');
 
 @font-face {
     font-family: "Bebas Neue";
@@ -12,9 +14,6 @@ body {
     color: #ffffff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 100% 100%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
 }
 
 h1 {
